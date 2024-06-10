@@ -2,7 +2,7 @@ import uuid
 import bcrypt
 import datetime
 from fastapi import HTTPException
-from app.db.database import database
+from app.database.db import database
 from app.utils.email import send_email
 
 class UserService:
